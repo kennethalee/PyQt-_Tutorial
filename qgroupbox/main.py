@@ -2,6 +2,7 @@ import sys
 from PyQt6.QtWidgets import QApplication, QWidget,  QFormLayout, QPushButton, QGroupBox, QLineEdit, QDateEdit
 from PyQt6.QtCore import Qt
 
+# Group related widget with title and frame
 
 class MainWindow(QWidget):
     def __init__(self, *args, **kwargs):
