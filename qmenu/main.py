@@ -92,7 +92,8 @@ class MainWindow(QMainWindow):
         self.setWindowTitle(title)
 
     def confirm_save(self):
-        if not self.text_edit.document().isModified():  # Check for unsaved changes
+        # Check for unsaved changes (is it modified since last saved/opened)
+        if not self.text_edit.document().isModified():
             return True
 
         message = f"Do you want to save changes to {
