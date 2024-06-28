@@ -4,12 +4,6 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QTextEdit, QFileDialog, Q
 from PyQt6.QtGui import QIcon, QAction
 from PyQt6.QtCore import QSize
 
-import sys
-from pathlib import Path
-from PyQt6.QtWidgets import QApplication, QMainWindow, QTextEdit, QFileDialog, QMessageBox, QToolBar, QLabel
-from PyQt6.QtGui import QIcon, QAction
-from PyQt6.QtCore import QSize
-
 
 class MainWindow(QMainWindow):
     def __init__(self, *args, **kwargs):
